@@ -1,0 +1,99 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 40px;
+    font-size: 24px;
+  }
+  
+  .count-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .count-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .count {
+    margin: 0 20px;
+    font-size: 24px;
+  }
+  
+  .chanting-controls {
+    margin-top: 20px;
+  }
+  
+  .start-button,
+  .stop-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .stop-button {
+    background-color: #dc3545;
+    margin-left: 10px;
+  }
+  
+  .mantra-machine {
+    background-color: #f9f9f9;
+  
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .count-container, .chanting-controls {
+    margin-bottom: 20px;
+  }
+  
+  .count-button, .start-button, .stop-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .count-button:hover, .start-button:hover, .stop-button:hover {
+    background-color: #45a049;
+  }
+  
+  .count {
+    font-size: 20px;
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  
+  
